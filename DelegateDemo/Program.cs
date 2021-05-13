@@ -14,7 +14,7 @@ namespace DelegateDemo
             Console.WriteLine("Delegate Demo");
             operation obj = new operation(Addition);
             Console.WriteLine("Addition is = {0}",obj(23,27));
-            //MulticastDelegate.ImplementDelegate();
+            MulticastDelegate.ImplementDelegate();
             Console.ReadKey();
         }
     }

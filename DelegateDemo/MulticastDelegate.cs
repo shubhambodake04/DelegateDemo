@@ -17,10 +17,7 @@ namespace DelegateDemo
     }
     public class Operation
     {
-        public Operation(int a)
-        {
-            Console.WriteLine(a);
-        }
+        
         public static void Add(int a, int b)
         {
             Console.WriteLine("Addition = {0}", a + b);
