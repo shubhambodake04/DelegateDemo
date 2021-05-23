@@ -13,7 +13,7 @@ namespace EventsDemo
             add += new DelEventHandler(India);
             add += new DelEventHandler(USA);
             add += new DelEventHandler(England);
-            add.Invoke();
+            //add.Invoke();
             Console.WriteLine("************Event Handling****************");
             EventHandling.ImplementEvent();
             Console.ReadKey();
